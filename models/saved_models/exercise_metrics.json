@@ -1,0 +1,41 @@
+{
+    "selected_model": "Random Forest",
+    "accuracy": 0.9799247176913425,
+    "macro_f1": 0.9800794984544411,
+    "classes": [
+        "bench",
+        "deadlift",
+        "ohp",
+        "rest",
+        "row",
+        "squat"
+    ],
+    "feature_count": 48,
+    "fold_results": [
+        {
+            "participant": "A",
+            "accuracy": 1.0,
+            "macro_f1": 1.0
+        },
+        {
+            "participant": "B",
+            "accuracy": 0.9428571428571428,
+            "macro_f1": 0.9255050505050505
+        },
+        {
+            "participant": "C",
+            "accuracy": 0.9016393442622951,
+            "macro_f1": 0.7342511132833712
+        },
+        {
+            "participant": "D",
+            "accuracy": 1.0,
+            "macro_f1": 1.0
+        },
+        {
+            "participant": "E",
+            "accuracy": 1.0,
+            "macro_f1": 1.0
+        }
+    ]
+}

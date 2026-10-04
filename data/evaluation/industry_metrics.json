@@ -1,0 +1,33 @@
+{
+  "accuracy": 0.9799247176913425,
+  "macro_precision": 0.9815570672713531,
+  "macro_recall": 0.9798486279706937,
+  "macro_f1": 0.9800794984544411,
+  "weighted_precision": 0.9813398885275565,
+  "weighted_recall": 0.9799247176913425,
+  "weighted_f1": 0.9799955047725115,
+  "roc_auc_macro_ovr": 0.9984445326911399,
+  "pr_auc_macro": 0.9946199500357523,
+  "roc_auc_per_class": {
+    "bench": 0.9928771099881734,
+    "deadlift": 1.0,
+    "ohp": 0.9977900861586663,
+    "rest": 1.0,
+    "row": 1.0,
+    "squat": 1.0
+  },
+  "pr_auc_per_class": {
+    "bench": 0.9791041835134495,
+    "deadlift": 1.0,
+    "ohp": 0.9886155167010642,
+    "rest": 1.0,
+    "row": 1.0,
+    "squat": 1.0
+  },
+  "phone_model_size_mb": 3.5932397842407227,
+  "phone_avg_batch_latency_ms": 62.83066100004361,
+  "phone_avg_window_latency_ms": 6.981184555560401,
+  "phone_throughput_windows_per_sec": 143.24216643198696,
+  "process_cpu_percent": 106.7,
+  "ram_increase_mb": 0.24609375
+}

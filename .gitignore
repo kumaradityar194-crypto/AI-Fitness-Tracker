@@ -1,0 +1,68 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# Raw and generated sensor data
+data/raw/
+data/processed/
+data/features/
+
+# Backup / temporary development files
+*_backup.py
+app_backup_*.py
+app_before_*.py
+live_session_pipeline_before_*.py
+train_phone_adapted_model_weighted_backup.py
+patch_*.py
+
+# Generated app assets / temporary folders
+app_files/
+app_final_clickable_sidebar_files/
+app_final_dashboard_files/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Model/cache directories
+.cache/
+cache/
+huggingface/
+wandb/
+mlruns/
+
+# Generated frontend artifacts
+app_final_clickable_sidebar_files/
+
+# Generated frontend artifacts
+app_sidebar_fixed_files/
+
+# Old experimental app versions
+app_final_clickable_sidebar.py
+app_final_dashboard.py
+app_sidebar_fixed.py
+
+# Old recognition backups
+recognition/*_before_*.py
+
+# Experimental weighted model backup
+models/saved_models/*weighted_10x*.pkl

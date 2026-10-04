@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Fitness Tracker - Sensor Collector</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Fitness Tracker</h1>
+        <h2>Phone Sensor Data Collector</h2>
+
+        <div class="status-card">
+            <p>
+                Status:
+                <span id="status">
+                    Not Started
+                </span>
+            </p>
+
+            <p>
+                Samples:
+                <span id="sampleCount">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Elapsed:
+                <span id="elapsedTime">
+                    0.0
+                </span>
+                sec
+            </p>
+        </div>
+
+
+        <!-- Exercise -->
+        <div class="input-section">
+
+            <label for="exercise">
+                Exercise
+            </label>
+
+            <select id="exercise">
+
+                <option value="bench">
+                    Bench Press
+                </option>
+
+                <option value="squat">
+                    Squat
+                </option>
+
+                <option value="deadlift">
+                    Deadlift
+                </option>
+
+                <option value="ohp">
+                    Overhead Press
+                </option>
+
+                <option value="row">
+                    Row
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- Intensity -->
+        <div class="input-section">
+
+            <label for="intensity">
+                Intensity
+            </label>
+
+            <select id="intensity">
+
+                <option value="heavy">
+                    Heavy
+                </option>
+
+                <option value="medium">
+                    Medium
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- Accelerometer -->
+        <div class="sensor-card">
+
+            <h3>Accelerometer</h3>
+
+            <div class="sensor-values">
+
+                <div>
+                    X:
+                    <span id="accX">
+                        0.000
+                    </span>
+                    g
+                </div>
+
+                <div>
+                    Y:
+                    <span id="accY">
+                        0.000
+                    </span>
+                    g
+                </div>
+
+                <div>
+                    Z:
+                    <span id="accZ">
+                        0.000
+                    </span>
+                    g
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Gyroscope -->
+        <div class="sensor-card">
+
+            <h3>Gyroscope</h3>
+
+            <div class="sensor-values">
+
+                <div>
+                    X:
+                    <span id="gyroX">
+                        0.000
+                    </span>
+                    deg/s
+                </div>
+
+                <div>
+                    Y:
+                    <span id="gyroY">
+                        0.000
+                    </span>
+                    deg/s
+                </div>
+
+                <div>
+                    Z:
+                    <span id="gyroZ">
+                        0.000
+                    </span>
+                    deg/s
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Buttons -->
+        <div class="buttons">
+
+            <button
+                id="startBtn"
+            >
+                Start Sensor
+            </button>
+
+            <button
+                id="stopBtn"
+                disabled
+            >
+                Stop
+            </button>
+
+            <button
+                id="downloadBtn"
+                disabled
+            >
+                Download CSV
+            </button>
+
+            <button
+                id="clearBtn"
+            >
+                Clear
+            </button>
+
+        </div>
+
+
+        <div class="instructions">
+
+            <h3>Instructions</h3>
+
+            <p>
+                1. Select exercise and intensity.
+            </p>
+
+            <p>
+                2. Keep the phone fixed in one orientation.
+            </p>
+
+            <p>
+                3. Press Start Sensor.
+            </p>
+
+            <p>
+                4. Perform the exercise.
+            </p>
+
+            <p>
+                5. Press Stop.
+            </p>
+
+            <p>
+                6. Download the CSV.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="sensor.js"></script>
+
+</body>
+</html>
