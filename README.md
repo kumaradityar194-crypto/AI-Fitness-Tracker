@@ -630,19 +630,22 @@ These segments become inputs to rep-level analysis and form-anomaly processing.
 
 The project contains an exercise-specific anomaly-analysis layer.
 
-```text
-Exercise
-   ↓
-Rep Segmentation
-   ↓
-Rep Features
-   ↓
-Anomaly Detector
-   ↓
-Anomaly Score
-   ↓
-Form Analysis
-```
+**Exercise**  
+↓  
+
+**Rep Segmentation**  
+↓  
+
+**Rep Features**  
+↓  
+
+**Anomaly Detector**  
+↓  
+
+**Anomaly Score**  
+↓  
+
+**Form Analysis**
 
 Saved form models exist for:
 
@@ -1039,7 +1042,7 @@ cd AI-Fitness-Tracker
 
 ```powershell
 python -m venv venv
-venv\Scriptsctivate
+venv\Scripts\activate
 ```
 
 ## Install dependencies
